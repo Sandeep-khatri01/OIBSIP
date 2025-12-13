@@ -1,100 +1,58 @@
-OIBSIP (Oasis Infobyte Internship Program)
+# OIBSIP - Python Programming Internship
 
-Welcome to my repository for the Oasis Infobyte Internship Program (OIBSIP). This repository contains all the tasks and projects completed during the internship period, focusing on Python development, GUI applications, networking, and API integration.
+Welcome to my repository for the **Oasis Infobyte Internship Program**. This repository contains all the tasks and projects completed during the internship period.
 
-📂 Repository Structure
+## 📂 Repository Structure
 
 The projects are organized into separate folders for each task:
 
-OIBSIP
-├── BMI_Calculator
-├── Password_Generator
-├── Webchat_App
-├── Weather_App
-└── README.md
+- **BMI Calculator**
+- **Password Generator**
+- **Webchat App**
+- **Weather App**
 
-🚀 Tasks Overview
+---
 
-Below are the details of the four projects completed during the internship:
+## 🚀 Tasks Overview
 
-🔹 BMI Calculator
+Here are the details of the four projects completed during the internship:
 
-Description:
-A GUI-based application that calculates the Body Mass Index (BMI) using user-provided height and weight, along with health category feedback.
+### 1. BMI Calculator
+* **Description:** A tool that calculates Body Mass Index (BMI) based on user input (weight and height) and provides health category feedback.
+* **Key Features:** Input validation, instant calculation, and categorization (Underweight, Normal, Overweight, Obese).
 
-Key Features:
+### 2. Password Generator
+* **Description:** An application designed to generate strong, random passwords to enhance digital security.
+* **Key Features:** Options for password length, inclusion of special characters, numbers, and uppercase/lowercase letters.
 
-Input validation
+### 3. Webchat App
+* **Description:** A real-time messaging application allowing users to communicate instantly.
+* **Key Features:** User authentication, real-time message delivery, and client-server architecture using sockets.
 
-Instant BMI calculation
+### 4. Weather App
+* **Description:** An application that fetches and displays current weather data for specific locations using a weather API.
+* **Key Features:** Search by city and display of temperature, humidity, and wind speed.
 
-Health classification (Underweight, Normal, Overweight, Obese)
+---
 
-🔹 Password Generator
+## 🛠️ Technologies Used
 
-Description:
-A Python application designed to generate strong and secure passwords to improve digital security.
+* **Language:** Python
+* **Libraries/Modules:**
+    * `PyQt5` / `PyQt6` (for GUI applications)
+    * `socket`, `threading` (for Webchat App)
+    * `random`, `string` (for Password Generator)
+    * `requests`, `json` (for Weather App)
+* **APIs:** OpenWeatherMap (for Weather App)
 
-Key Features:
+---
 
-Custom password length
+## 📝 Submission Details
 
-Inclusion of uppercase, lowercase, numbers, and special characters
+This repository is maintained for the submission of tasks for the Oasis Infobyte Internship.
 
-Random and secure password generation
+* **Intern Name:** sandeep khatri
+* **Internship Domain:** Python Programming
+* **Batch:** November 2025
 
-🔹 Webchat App
-
-Description:
-A real-time chat application that allows users to communicate instantly using socket programming.
-
-Key Features:
-
-Client-server architecture
-
-Real-time message transmission
-
-Demonstrates networking concepts using sockets
-
-🔹 Weather App
-
-Description:
-An application that fetches and displays live weather information for user-specified locations using a weather API.
-
-Key Features:
-
-Search weather by city name
-
-Displays temperature, humidity, and wind speed
-
-Real-time API integration
-
-🛠️ Technologies Used
-
-Language:
-
-Python
-
-Libraries / Modules:
-
-PyQt5 / PyQt6 (GUI Applications)
-
-socket, threading (Webchat App)
-
-random, string (Password Generator)
-
-requests, json (Weather App)
-
-API Used:
-
-OpenWeatherMap API
-
-📝 Submission Details
-
-This repository is maintained for the submission of tasks under the Oasis Infobyte Internship Program.
-
-Intern Name: Sandeep Khatri
-
-Internship Domain: Python Programming
-
-Internship Program: Oasis Infobyte (OIBSIP)
+**Thank you for visiting!**
