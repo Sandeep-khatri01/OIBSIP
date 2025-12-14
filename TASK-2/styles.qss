@@ -1,0 +1,191 @@
+/* Main Window Background - Minimalistic */
+QMainWindow, QWidget {
+    background-color: #FAFAFA;
+    color: #212121;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+}
+
+/* Tabs */
+QTabWidget::pane {
+    border: 1px solid #E0E0E0;
+    background: #FFFFFF;
+    border-radius: 8px;
+    margin-top: -1px;
+}
+
+QTabBar::tab {
+    background: #F5F5F5;
+    color: #616161;
+    padding: 12px 24px;
+    margin-right: 4px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: 500;
+    border: 1px solid #E0E0E0;
+    border-bottom: none;
+}
+
+QTabBar::tab:selected {
+    background: #FFFFFF;
+    color: #1976D2;
+    border-bottom: 3px solid #1976D2;
+}
+
+QTabBar::tab:hover:!selected {
+    background: #EEEEEE;
+    color: #424242;
+}
+
+/* Buttons */
+QPushButton {
+    background: #1976D2;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    background: #1565C0;
+}
+
+QPushButton:pressed {
+    background: #0D47A1;
+}
+
+QPushButton#calculateButton {
+    background: #1976D2;
+    font-size: 15px;
+    padding: 14px 28px;
+    border-radius: 8px;
+}
+
+QPushButton#calculateButton:hover {
+    background: #1565C0;
+}
+
+/* Input Fields */
+QLineEdit, QComboBox {
+    padding: 12px;
+    border: 1px solid #BDBDBD;
+    border-radius: 6px;
+    background: #FFFFFF;
+    color: #212121;
+    selection-background-color: #BBDEFB;
+    selection-color: #000000;
+}
+
+QLineEdit:focus, QComboBox:focus {
+    border: 2px solid #1976D2;
+    background: #FFFFFF;
+}
+
+QComboBox::drop-down {
+    border: none;
+    padding-right: 10px;
+}
+
+QComboBox::down-arrow {
+    image: none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #757575;
+    margin-right: 5px;
+}
+
+/* Labels */
+QLabel {
+    color: #212121;
+    background-color: transparent;
+    padding: 2px 4px;
+}
+
+QLabel#inputTitle {
+    color: #1976D2;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+QLabel#resultTitle {
+    color: #1976D2;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+QLabel#bmiValue {
+    padding: 20px;
+    border-radius: 12px;
+    background: #F5F5F5;
+}
+
+QLabel#categoryLabel {
+    padding: 10px;
+}
+
+/* Sections */
+QWidget#userSection, QWidget#formSection {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #E0E0E0;
+}
+
+QWidget#resultWidget {
+    background: #FFFFFF;
+    border-left: 1px solid #E0E0E0;
+}
+
+QFrame#scaleFrame {
+    background: #F5F5F5;
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #E0E0E0;
+}
+
+/* Table */
+QTableWidget {
+    border: 1px solid #E0E0E0;
+    gridline-color: #E0E0E0;
+    background-color: #FFFFFF;
+    alternate-background-color: #FAFAFA;
+    color: #212121;
+    border-radius: 6px;
+}
+
+QHeaderView::section {
+    background-color: #F5F5F5;
+    color: #1976D2;
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    font-weight: 600;
+}
+
+QTableWidget::item {
+    padding: 8px;
+}
+
+QTableWidget::item:selected {
+    background-color: #E3F2FD;
+    color: #1976D2;
+}
+
+/* Message Box */
+QMessageBox {
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+QMessageBox QLabel {
+    color: #212121;
+    min-width: 300px;
+}
+
+QMessageBox QPushButton {
+    background-color: #1976D2;
+    color: #FFFFFF;
+    min-width: 80px;
+}
