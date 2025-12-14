@@ -63,6 +63,3 @@ ChatApp/
 └── requirements.txt
 ```
 
-## Author
-
-[Abhimanyu Singh Chouhan]
